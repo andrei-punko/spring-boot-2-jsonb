@@ -13,8 +13,8 @@ services:
       POSTGRES_USER: articles-user
       POSTGRES_PASSWORD: articles-password
 
-  spring-boot-jsonb-app:
-    image: spring-boot-jsonb-app
+  spring-boot-2-jsonb-app:
+    image: spring-boot-2-jsonb-app
     restart: always
     ports:
       - "9080:9080"

@@ -4,10 +4,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>by.andd3dfx</groupId>
-	<artifactId>spring-boot-jsonb</artifactId>
+	<artifactId>spring-boot-2-jsonb</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
-	<name>spring-boot-jsonb</name>
+	<name>spring-boot-2-jsonb</name>
 	<description>Spring Boot 2 app with example of JSONB usage</description>
 
 	<properties>

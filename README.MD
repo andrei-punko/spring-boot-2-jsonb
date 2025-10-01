@@ -1,8 +1,8 @@
 # Spring Boot app with example of Postgres JSONB data type usage
 
-![Java CI with Maven](https://github.com/andrei-punko/spring-boot-jsonb/workflows/Java%20CI%20with%20Maven/badge.svg)
-[![Coverage](.github/badges/jacoco.svg)](https://github.com/andrei-punko/spring-boot-jsonb/actions/workflows/maven.yml)
-[![Branches](.github/badges/branches.svg)](https://github.com/andrei-punko/spring-boot-jsonb/actions/workflows/maven.yml)
+![Java CI with Maven](https://github.com/andrei-punko/spring-boot-2-jsonb/workflows/Java%20CI%20with%20Maven/badge.svg)
+[![Coverage](.github/badges/jacoco.svg)](https://github.com/andrei-punko/spring-boot-2-jsonb/actions/workflows/maven.yml)
+[![Branches](.github/badges/branches.svg)](https://github.com/andrei-punko/spring-boot-2-jsonb/actions/workflows/maven.yml)
 
 Includes web-server on port 9080 with `/articles` endpoint exposed.  
 Supports CRUD set of operations and R operation with pagination.
@@ -18,7 +18,7 @@ Supports CRUD set of operations and R operation with pagination.
 
 ## Build Docker image with application inside:
 
-    docker build --no-cache ./ -t spring-boot-jsonb-app
+    docker build --no-cache ./ -t spring-boot-2-jsonb-app
 
 ## Start two Docker containers - with Postgres DB and application:
 
