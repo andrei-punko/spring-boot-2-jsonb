@@ -93,3 +93,7 @@ Check functional test report [here](func-test/build/spock-reports/index.html)
 
 [//]: # ([YouTube link]&#40;https://youtu.be/AzvJe9ij53o&#41;)
 [![YouTube link](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fyoutu.be%2FAzvJe9ij53o)](https://youtu.be/AzvJe9ij53o)
+
+## Related project
+
+Same project but with usage of Spring Boot 3 available [here](https://github.com/andrei-punko/spring-boot-3-jsonb)
