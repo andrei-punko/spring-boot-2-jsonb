@@ -40,8 +40,8 @@ public class ArticleService implements IArticleService {
 
     @Transactional
     @Override
-    public void update(Long id, ArticleUpdateDto articleUpdateDto) {
-        articleRepository.findById(id)
+    public ArticleDto update(Long id, ArticleUpdateDto articleUpdateDto) {
+        return articleRepository.findById(id)
             .map(article -> {
                 articleMapper.toArticle(articleUpdateDto, article);
                 Article savedArticle = articleRepository.save(article);

@@ -384,7 +384,9 @@ class ArticleControllerTest {
         mockMvc.perform(patch("/articles/2")
                         .contentType(APPLICATION_JSON)
                         .content(json(articleUpdateDto)))
-                .andExpect(status().isOk());
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id", is(2)))
+                .andExpect(jsonPath("$.title", is(articleUpdateDto.getTitle())));
     }
 
     @Test
@@ -396,7 +398,9 @@ class ArticleControllerTest {
         mockMvc.perform(patch("/articles/2")
                         .contentType(APPLICATION_JSON)
                         .content(json(articleUpdateDto)))
-                .andExpect(status().isOk());
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id", is(2)))
+                .andExpect(jsonPath("$.summary", is(articleUpdateDto.getSummary())));
     }
 
     @Test
@@ -407,7 +411,9 @@ class ArticleControllerTest {
         mockMvc.perform(patch("/articles/2")
                         .contentType(APPLICATION_JSON)
                         .content(json(articleUpdateDto)))
-                .andExpect(status().isOk());
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.id", is(2)))
+                .andExpect(jsonPath("$.text", is(articleUpdateDto.getText())));
     }
 
     @Test
